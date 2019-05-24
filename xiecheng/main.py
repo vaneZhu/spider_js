@@ -169,7 +169,7 @@ if __name__ == '__main__':
     # cityid = 2  # 上海
     # roomid = 6410223
     # cityid = 1 # 北京
-    roomid = 457242
+    roomid = 6386846
     cityid = 1 # 北京
 
     XieCheng(roomid, cityid=cityid).run()
