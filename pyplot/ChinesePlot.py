@@ -15,6 +15,7 @@ class ChinessPlot():
     def draw(self):
         x = numpy.linspace(-10,10,100)
         y = (lambda x:2*x+5)(x)
+        self.shfit_axis()
         plt.title('匀速运动')
         plt.xlabel('x轴')
         plt.ylabel('y轴')
@@ -23,8 +24,17 @@ class ChinessPlot():
         plt.legend()
         plt.annotate('0点',(0,5), xytext=(+30, -30), textcoords='offset points', xycoords='data', arrowprops=dict(arrowstyle='->',
                                  connectionstyle='arc3, rad=.2'))
+
         plt.show()
 
+    def shfit_axis(self):
+        axies = plt.gca()
+        axies.xaxis.set_ticks_position('bottom')
+        axies.yaxis.set_ticks_position('left')
+        axies.spines['bottom'].set_position(('data', 0))
+        axies.spines['left'].set_position(('data', 0))
+        axies.spines['top'].set_color(None)
+        axies.spines['right'].set_color(None)
 
 
 if __name__ == '__main__':
