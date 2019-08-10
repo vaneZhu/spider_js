@@ -1,7 +1,6 @@
 ### 运行方式
 * python LeiSong.py
 #### 思路
-
 > 大约一周之前，看到爬虫群里有一道面试题，赵雷的歌都讲的什么？
 > 很多群友在diss面试官，但是我尝试着做了这道题，有一些不同的收获，于是写出来分享给大家。
 > 整体思路是抓取网易云关于赵雷的所有歌词，统计词频，最后显示出来
@@ -12,8 +11,7 @@
  * 总结
 #### 效果展示
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190810232148486.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTMzNTYyNTQ=,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190810232047465.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTMzNTYyNTQ=,size_16,color_FFFFFF,t_70)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190810234518135.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTMzNTYyNTQ=,size_16,color_FFFFFF,t_70)
 #### 项目地址
 *  [赵雷的歌](https://github.com/justcodedroid/spider_js/tree/master/leisong)
 #### 遇到的问题
